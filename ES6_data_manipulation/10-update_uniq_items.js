@@ -1,13 +1,13 @@
-function updateUniqueItems(groceries) {
-  if (!(groceries instanceof Map)) {
-    throw new Error("Cannot process");
+export default function updateUniqueItems(map) {
+  if (!(map instanceof Map)) {
+    throw new Error('Cannot process');
   }
 
-  for (const [item, quantity] of groceries) {
-    if (quantity === 1) {
-      groceries.set(item, 100);
+  map.forEach((value, key) => {
+    if (value === 1) {
+      map.set(key, 100);
     }
-  }
-}
+  });
 
-export default updateUniqueItems;
+  return map;
+}
