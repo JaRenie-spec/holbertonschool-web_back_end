@@ -3,7 +3,8 @@
 """
 This module provides a function to concatenate two strings.
 
-It defines a function that takes two strings as input, concatenates them, and returns the resulting string.
+It defines a function that takes two strings as input, concatenates them,
+and returns the resulting string.
 """
 
 

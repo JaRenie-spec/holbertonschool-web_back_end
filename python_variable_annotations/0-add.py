@@ -3,7 +3,8 @@
 """
 This module contains a function to add two floating-point numbers.
 
-It provides a simple function that takes two numbers as input, adds them together, and returns the sum.
+It provides a simple function that takes two numbers as input,
+adds them together, and returns the sum.
 """
 
 

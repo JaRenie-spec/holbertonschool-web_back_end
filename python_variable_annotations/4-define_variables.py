@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
 """
-This module demonstrates the use of type annotations and provides documentation for each variable.
+This module demonstrates the use of type annotations
+and provides documentation for each variable.
 
-It includes variables of various types, such as integers, floats, booleans, and strings, with explanations
+It includes variables of various types, such as integers, floats, booleans,
+and strings, with explanations
 about their values and roles in the program.
 """
 
@@ -21,7 +23,8 @@ It represents an approximation of the mathematical constant pi.
 
 i_understand_annotations: bool = True
 """
-The boolean variable 'i_understand_annotations' is initialized with the value True.
+The boolean variable 'i_understand_annotations'
+is initialized with the value True.
 It indicates whether the user understands Python type annotations.
 """
 
