@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+
+"""
+This module defines a function that takes a string and a number, squares the number,
+and returns a tuple containing the string and the squared number.
+
+The function handles both integers and floats as the input for the number, and ensures
+that the result is returned as a float.
+"""
+
 from typing import Union, Tuple
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:

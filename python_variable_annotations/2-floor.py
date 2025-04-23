@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+"""
+This module provides a function to calculate the floor value of a given floating-point number.
+
+It uses the math.floor() function to return the largest integer less than or equal to the input number.
+"""
+
 import math
 
 def floor(n: float) -> int:

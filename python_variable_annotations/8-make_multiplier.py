@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+
+"""
+This module provides a function that returns a multiplier function.
+
+The `make_multiplier` function takes a multiplier as an argument and returns a new function.
+The returned function can be used to multiply any given number by the original multiplier.
+"""
+
 from typing import Callable
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
