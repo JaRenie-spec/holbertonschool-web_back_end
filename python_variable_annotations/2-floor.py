@@ -8,6 +8,7 @@ It uses the math.floor() function to return the largest integer less than or equ
 
 import math
 
+
 def floor(n: float) -> int:
     """
     Returns the largest integer less than or equal to the given float.

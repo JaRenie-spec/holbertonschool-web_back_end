@@ -9,6 +9,7 @@ The returned function can be used to multiply any given number by the original m
 
 from typing import Callable
 
+
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     Returns a function that multiplies a given number by a specified multiplier.

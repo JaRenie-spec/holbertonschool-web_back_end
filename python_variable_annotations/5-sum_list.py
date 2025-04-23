@@ -8,6 +8,7 @@ It defines a function that takes a list of floating-point numbers and returns th
 
 from typing import List
 
+
 def sum_list(input_list: List[float]) -> float:
     """
     Sums all the elements in a list of floats and returns the result.
