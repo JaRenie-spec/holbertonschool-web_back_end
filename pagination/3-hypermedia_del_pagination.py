@@ -35,7 +35,7 @@ class Server:
         return self.__indexed_dataset
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
-        """Return a dictionary with pagination information, resilient to deletions."""
+        """Return a dictionary with pagination information."""
         # Assert that the starting index is within the range of the dataset
         assert isinstance(index, int) and index >= 0
         dataset = self.indexed_dataset()
@@ -63,7 +63,8 @@ class Server:
         # Prepare the result with pagination details
         result = {
             "index": index,
-            "next_index": current_index if current_index < len(dataset) else None,
+            "next_index": current_index if current_index < len(dataset)
+            else None,
             "page_size": len(data),
             "data": data
         }
