@@ -3,6 +3,7 @@
 import asyncio
 import random
 
+
 async def async_generator():
     """Coroutine that yields a random number between 0 and 10, 10 times,
       with 1 second delay each."""
